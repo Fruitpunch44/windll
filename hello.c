@@ -9,6 +9,7 @@ int main(){
     //WHNE 
     BOOL (*func)();
     BOOL (*func2)();
+    
     func=(BOOL(*)())GetProcAddress(hDll,"runMe");
     func2 = (BOOL(*)())GetProcAddress(hDll,"runme2");
     if(func==NULL){

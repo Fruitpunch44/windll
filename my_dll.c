@@ -2,8 +2,6 @@
 
 #pragma comment(lib, "user32.lib")
 
-
-
 BOOL APIENTRY Dllmain(HMODULE hmodule,DWORD reason_for_call,LPVOID lpReserved){
     switch(reason_for_call){
         case DLL_PROCESS_ATTACH:
